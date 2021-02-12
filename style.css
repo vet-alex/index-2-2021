@@ -9,7 +9,7 @@ body {
     margin: 0 0;
 }
 #bg1 {
-    background-image:url("img/puppy-kitten-vet.jpg");
+    background-image:url("https://1.bp.blogspot.com/-zRTucO1VZV4/YCagikZkESI/AAAAAAAAAOs/9q6Hnfgn1-IKuwZ5qldTzyktGGfeJ04eACLcBGAsYHQ/s16000/puppy-kitten-vet.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -57,7 +57,7 @@ body {
 }
 .teamsdrop:hover .teams {display: block;}
 .bgfooter {
-    background-image: url("img/footer1.jpg");
+    background-image: url("https://1.bp.blogspot.com/-2O4MxUcixgg/YCaiiYXOPtI/AAAAAAAAAPA/nODzkJnU7XU4xF5O7rgpujVi4zEWhO2BACLcBGAsYHQ/s0/footer1.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-color: cornsilk;
@@ -84,7 +84,7 @@ table {
 
 
 .bg-img-hire-home {
-    background-image: url("img/login-form-bg-home.jpg");
+    background-image: url("https://1.bp.blogspot.com/-tLtTXoMpjAg/YCagdj_qJcI/AAAAAAAAAOo/hx5p21Xe2v0d-g3uoeFIdh9_qAPnMG_wQCLcBGAsYHQ/s16000/login-form-bg-home.jpg");
     min-height: 600px;
     background-position: center;
     background-repeat: no-repeat;
