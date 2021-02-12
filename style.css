@@ -1,0 +1,134 @@
+* {
+    border:0;
+    margin:0;
+}
+body {
+
+    background-color: rgb(59, 185, 235);
+    font-family: cairo,Georgia, serif;
+    margin: 0 0;
+}
+#bg1 {
+    background-image:url("img/puppy-kitten-vet.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;;
+    position: relative;
+}
+#headmenu {
+    position: sticky;
+    top: 0px;
+}
+.headmenuitem,.teamsdrop {
+    float: left;
+    padding: 10px;
+    color: floralwhite;
+    background-color: dodgerblue;
+    margin: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow:3px 3px 10px 3px black;
+}
+.teamdrop 
+{
+    display: inline-block;
+}
+.teams {
+    display: none;
+    position: relative;
+    top: 10px;
+    left: 5px;
+
+    border: 2px solid black;
+    text-decoration: none;
+
+}
+.teams a {
+    display: block;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 1px;
+
+}
+.teamsbtn {
+    cursor: pointer;
+
+}
+.teamsdrop:hover .teams {display: block;}
+.bgfooter {
+    background-image: url("img/footer1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: cornsilk;
+    height: 700px;
+    background-position: center;
+}
+.smifooter a {
+    padding:5px;
+    margin: 10px;
+}
+table {
+    clear: both;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.36);
+    min-width:600px;
+    min-height: fit-content;
+    position:absolute;
+    bottom: 100px;
+    left:200px;
+    border-radius: 5px;
+}
+
+
+
+.bg-img-hire-home {
+    background-image: url("img/login-form-bg-home.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:fit-content;
+    z-index:2;
+  }
+    .hire-form-home {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  input[type=text] {
+    width: 88%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .btn-hire {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn-hire:hover {
+    opacity: 1;
+  }
+  .timestabs {
+      height:fit-content;
+  }
